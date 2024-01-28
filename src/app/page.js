@@ -1,16 +1,12 @@
-const handleClick = () =>{
-  return(
-    
-  )
-}
+
 export default function Home() {
   return (
     <>
     <div className="font-sans h-screen flex w-full justify-center items-center bg-green-900">
       <div className="text-center text-white mx-auto">
             <h1 className="text-4xl font-extrabold tracking-tight text-gray-200 sm:text-5xl md:text-6xl font-title">
-              <span className="block">The world's favourite zero waste company</span>
-              <span className="block pt-2">a Clue to Solve the Problem With Plastic Waste.</span>
+              <span className="block">The Korean traditioanl drink</span>
+              <span className="block pt-2">Try our drinks!</span>
             </h1>
             <p className="max-w-md mx-auto mt-3 text-base tsm:text-lg md:mt-5 md:text-xl md:max-w-3xl">GIGU successfully Establishes The Zero-Waste System
             </p>

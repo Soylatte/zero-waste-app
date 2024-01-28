@@ -7,11 +7,12 @@ export default function RootLayout({ children }) {
   return (
     <header className="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md">
     <body className="flex-1 flex justify-between items-center">
-      <h1 className="font-bold text-2xl">GIGU</h1>
+      <h1 className="font-bold text-2xl">THWN</h1>
     <div className="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
             <Link href='/' className="md:p-4 py-3 px-0 block">HOME</Link>
             <Link href='/about' className="md:p-4 py-3 px-0 block">ABOUT</Link>
             <Link href='/product' className="md:p-4 py-3 px-0 block">PRODUCTS</Link>
+            <Link href='/tips' className="md:p-4 py-3 px-0 block">TIPS</Link>
     </div>
     {children}
     <footer className="px-4 pt-16 mx-auto sm:max-w-xl md:max w-full lg:max-w-screen-xl md:px-24 lg:px-8">

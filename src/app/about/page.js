@@ -1,27 +1,33 @@
 export default function About(){
     return(
         <div>
-            <h1>About us</h1>
-            <p>GIGU is devoted to ensuring our shared home, Earth, remains vibrant and alive.
-                 <br></br>
-                 We endeavor to leave no lasting marks on the world, out of consideration for future generations,
-for we recognize the select few things worth preservation.
-</p>
-                <p>Alongside, we capture the essence of the truly cherished values, ready to be passed on to the tomorrows.
-Our narrative encompasses love and nature, wisdom, art, and the finest technologies.
-
-                </p>
+            <h1>HISTORY</h1>
+            <p>Soju is one of the most popularly consumed alcoholic beverages in Korea. 
+                Historically, it is said to have been derived from yellow wine, a Chinese distilled liquor. 
+                Soju has existed in Korea since the Goryeo Dynasty, and became an everyday drink during the Joseon Dynasty.
+                 However, until the early 20th century,
+                 <br /> 
+                 home brewing was common at home, and commercially produced soju was not popular.
+                  However, as commercial soju production became more active after the 1960s, a period of rapid economic growth, soju became an everyday drink in Korean society.</p>
                 <br/>
-                <p>GIGU dedicates a share of its earnings in the names of our valued customers,
-                     supporting visionary individuals and organizations dedicated to fostering positive transformations worldwide, 
-                     as well as those who yearn for a compassionate gesture. 
-                    GIGU’s project aims to transform the daily lives of us all into social projects.</p>
+                <h2>HOW TO DRINK?</h2>
+                <p>Soju is usually best enjoyed when drunk pure. To drink pure soju, follow these steps:
+
+1.Pour the amount of soju you want to drink into a cup.
+
+2. Pour soju into a small cup and gently rotate it to fill it with soju.
+
+3. We recommend drinking it in small portions rather than drinking it all at once. This will allow you to further enjoy the taste and aroma of soju.</p>
                 <br />
-                <p>At the same time, we record the values that we can leave to the next generation.
-                 Our writings are about love and nature, wisdom and art, and good technology.</p>
+                <p>Soju is usually enjoyed with food at home, and matching soju with snacks is important. Traditional Korean side dishes such as kimchi, sundae, seafood and green onion pancakes, and tteokbokki go well with soju. 
+                    Also, it is good to drink soju with fatty foods. Oily foods can enhance the taste and aroma of soju.</p>
                  <br />
-                 <img src="/main.png" alt="main"/>
-                 <h2>Contact us</h2>
+
+                 <h3>Soju is one of the most popular alcoholic beverages in Korea. 
+                    It can be drunk pure, but it can also be enjoyed in cocktails or with snacks. 
+                    To enjoy the taste and aroma of soju even more, you can drink it cold, choose an appropriate soju glass, and adjust the amount of water.
+                     Snacks that match the various types of soju are also an important point.
+                     Enjoy soju even more with the right combination!</h3>
 
         </div>
     )
