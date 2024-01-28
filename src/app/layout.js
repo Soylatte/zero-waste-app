@@ -5,19 +5,17 @@ import './globals.css';
 
 export default function RootLayout({ children }) {
   return (
-    <body>
+    <header className="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md">
+    <body className="flex-1 flex justify-between items-center">
       <h1 className="font-bold text-2xl">GIGU</h1>
-    <div className="navbar">
-            <Link href='/'>HOME</Link>
-            <Link href='/about'>ABOUT</Link>
-            <Link href='/challenge'>CHALLENGE</Link>
-            <Link href='/event'>EVENT</Link>
-            <Link href='/singup'>Sign Up</Link>
+    <div className="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
+            <Link href='/' className="md:p-4 py-3 px-0 block">HOME</Link>
+            <Link href='/about' className="md:p-4 py-3 px-0 block">ABOUT</Link>
+            <Link href='/product' className="md:p-4 py-3 px-0 block">PRODUCTS</Link>
     </div>
     {children}
-    <footer>
-    <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-  <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
+    <footer className="px-4 pt-16 mx-auto sm:max-w-xl md:max w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+  <div className="grid gap-10 row-gap-6 mb-8 lg:grid-cols-2 lg:grid-cols-4">
     <div className="sm:col-span-2">
       <a href="/" aria-label="Go home" title="Company" className="inline-flex items-center">
       </a>
@@ -46,10 +44,10 @@ export default function RootLayout({ children }) {
       © Copyright 2024 GIGU. All rights reserved.
     </p>
   </div>
-</div>
 </footer>
 
     </body>
+    </header>
 
   );
 }
