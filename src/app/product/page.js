@@ -1,33 +1,20 @@
-
-export default function Product(products) {
-    return(
-        <>
-        <h1>OUR PRODUCTS</h1>
-        <ul>
-        <li key={products.전통주명}>
-        </li>
-        </ul>
-        </>
-    )
+export const metadata= {
+  title: 'our products',
+  name: 'traditional drink',
 }
-export async function GET() {
-    try {
-      const res = await fetch('https://api.odcloud.kr/api/15048755/v1/uddi:fec53d3a-2bef-4494-b50e-f4e566f403e0');
-      const data = await res.json();
-  
-      console.log(`Show data fetched. Count: ${data.data.length}`);
-  
-      return {
-        props: {
-          product: data.data,
-        },
-      };
-    } catch (error) {
-      console.error('Error fetching data:', error);
-      return {
-        props: {
-          products: null,
-        },
-      };
-    }
-  };
+
+export default async function Products() {
+  const resp = await fetch('http://localhost:9999/data');
+  const datas = await resp.json();
+
+  return(
+    <div>
+      <h1>our products</h1>
+      <p>
+        {datas.map((data)=>{
+          return <p key={data.id}>{data.name}</p>
+        })}
+      </p>
+    </div>
+  )
+}
